@@ -9,7 +9,7 @@ public class AssignTest03 {
 		
 		System.out.println(+num1); // 양수 출력
 		
-		// 주의: 진짜 값이 바뀌는게 아니라 표기만 바뀌는 거임
+		// ****주의: 진짜 값이 바뀌는게 아니라 표기만 바뀌는 거임
 		System.out.println(-num2);
 		System.out.println(num2);
 		

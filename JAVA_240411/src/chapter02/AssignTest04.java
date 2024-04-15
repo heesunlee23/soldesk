@@ -18,8 +18,9 @@ public class AssignTest04 {
 
 		// 후위연산 
 		System.out.println("==후위연산==");
-		int lastScore3 = gameScore++; // **** 대입 후 더하기 
-		// lastScore3에 대입하고 더해짐!!!!!!!!!
+		int lastScore3 = gameScore++; 
+		// **** 대입 후 더하기 
+		// **** lastScore3에 대입하고 더해짐!!!!!!!!!
 		System.out.println("lastScore3 : " + lastScore3); // 150
 		System.out.println("gameScore : " + gameScore); // 151
 		
