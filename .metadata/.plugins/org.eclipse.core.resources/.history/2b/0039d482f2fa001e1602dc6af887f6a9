@@ -1,0 +1,11 @@
+package chapter03.IF;
+
+public class IfExample08_With_Class {
+
+	public static void main(String[] args) {
+		Comparison comparison = new Comparison();
+		comparison.compare(numbers);
+	
+	}
+
+}

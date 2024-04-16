@@ -1,0 +1,19 @@
+package chapter01;
+
+public class BinaryTest1 {
+
+	public static void main(String[] args) {
+		
+		byte aVar = 100;
+		short bVar = 30000;
+		int cVar = 50000;
+		int dVar = 1000000;
+		
+		System.out.println(aVar);
+		System.out.println("short 타입 : " + bVar);
+		System.out.println(cVar);
+		System.out.println(dVar);
+		
+	}
+
+}

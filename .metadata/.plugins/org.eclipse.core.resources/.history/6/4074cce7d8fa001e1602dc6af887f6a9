@@ -1,0 +1,13 @@
+package chapter03.IF;
+
+import javax.swing.JOptionPane;
+
+public class IfExample03 {
+	public static void main(String[] args) {
+		
+		char grade;
+		int jumsu;
+		
+		jumsu = Integer.parseInt(JOptionPane.showInputDialog("Java 점수"));
+	}
+}

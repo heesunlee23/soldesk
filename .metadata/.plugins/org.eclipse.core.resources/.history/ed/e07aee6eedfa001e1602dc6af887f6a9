@@ -1,0 +1,15 @@
+package chapter03.IF;
+
+import java.util.Scanner;
+
+public class IFExample07 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		// System.in : 콘솔 창에 입력하는 값
+		// Scanner: 화면으로부터 데이터를 입력받는 기능을 제공하는 클래스 
+
+	}
+
+}

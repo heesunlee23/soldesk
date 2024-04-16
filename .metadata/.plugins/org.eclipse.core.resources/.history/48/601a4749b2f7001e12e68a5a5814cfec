@@ -1,0 +1,13 @@
+package chapter01;
+
+public class IntegerVariable {
+
+	public static void main(String[] args) {
+		byte a = 1;
+		int b = 5;
+		
+		System.out.println(a+b);
+
+	}
+
+}

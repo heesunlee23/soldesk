@@ -1,0 +1,12 @@
+package chapter03.SWITCH;
+
+public class ScoreDeterminer {
+	int num;
+	
+	public ScoreDeterminer() {
+		System.out.print("주사위 눈의 수 : ");
+		num = (int)(Math.random()*10)+1;
+	}
+	
+	
+}

@@ -1,0 +1,14 @@
+package chapter03.IF;
+
+import javax.swing.JOptionPane;
+
+public class Ticket {
+	
+	int age = Integer.parseInt(JOptionPane.showInputDialog("나이"));
+	int price = 0;
+	
+	public Ticket(Ticket ticket) {
+		
+	}
+	
+}

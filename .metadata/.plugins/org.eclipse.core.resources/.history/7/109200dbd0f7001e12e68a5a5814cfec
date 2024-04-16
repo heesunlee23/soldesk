@@ -1,0 +1,19 @@
+package chapter02;
+
+public class ArithTest {
+
+	public static void main(String[] args) {
+		
+		// 총점과 평균을 출력 
+		int mathScore = 96;
+		int engScore = 87; 
+		
+		// 총점 
+		System.out.println("총점: " + (mathScore + engScore));
+		
+		// 평균 
+		
+
+	}
+
+}

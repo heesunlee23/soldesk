@@ -1,0 +1,19 @@
+// 관계 연산자 
+
+package chapter02;
+
+public class Rela_Test {
+
+	public static void main(String[] args) {
+		
+		char a, b;
+		a = 'A'; // 65
+		b = 'B'; // 66
+		
+		boolean A1 = a < b; // false
+		System.out.println(A1);
+		
+		
+	}
+
+}

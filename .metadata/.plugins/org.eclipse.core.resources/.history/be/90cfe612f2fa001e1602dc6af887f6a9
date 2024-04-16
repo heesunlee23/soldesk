@@ -1,0 +1,9 @@
+package chapter03.IF;
+
+public class TwoNumberComparison {
+	
+	
+	public TwoNumberComparison() {
+		
+	}
+}

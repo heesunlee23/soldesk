@@ -1,0 +1,29 @@
+package chapter03.IF;
+
+import javax.swing.JOptionPane;
+
+public class IfExample08 {
+
+	public static void main(String[] args) {
+		
+		int[] numbers = new int[2];
+		
+		numbers[0] = Integer.parseInt(JOptionPane.showInputDialog("첫 번째 숫자를 입력하세요"));
+		numbers[1] = Integer.parseInt(JOptionPane.showInputDialog("두 번째 숫자를 입력하세요"));
+		
+		compareTwoNumbers(numbers);
+		
+	}
+	
+	public static void compareTwoNumbers(int[] numbers) {
+		
+		if (numbers[0] > numbers[1]) {
+			System.out.println("");
+		} else if (numbers[0] < numbers[1]) {
+			
+		} else {
+			
+		}
+	}
+
+}

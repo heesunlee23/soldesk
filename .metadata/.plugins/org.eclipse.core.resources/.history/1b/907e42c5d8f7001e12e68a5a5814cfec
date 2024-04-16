@@ -1,0 +1,28 @@
+package chapter02;
+
+public class AssignTest02 {
+
+	public static void main(String[] args) {
+		int aVal = 20;
+		
+		// System.out.println("aval = aVal+10 : " + (aVal = aVal+10));
+		
+		// (Ctrl + Alt + 아래방향키) -> 화면 뒤집히면 바탕화면 오른쪽 마우스 -> 그래픽옵션 -> 바로가기키 -> 사용안함
+		
+		// System.out.println("aval = aVal+10 : " + (aVal = aVal+10));
+		System.out.println("aval = aVal+10 : " + (aVal += 10));
+		// 30
+		
+		System.out.println("aval = aVal-10 : " + (aVal -= 10));
+		// 20 
+		
+		System.out.println("aval = aVal*10 : " + (aVal *= 10));
+		//200
+		
+		System.out.println("aval = aVal/10 : " + (aVal /= 10));
+		
+		System.out.println("aval = aVal%10 : " + (aVal %= 10));
+	}
+
+	
+}

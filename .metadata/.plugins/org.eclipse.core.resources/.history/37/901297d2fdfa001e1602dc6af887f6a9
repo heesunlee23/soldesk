@@ -1,0 +1,10 @@
+package chapter03.SWITCH;
+
+public class SwitchCase03 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package chapter03.IF;
+
+public class Comparison {
+	
+	
+	public Comparison() {
+		
+	}
+	
+	private void compare() {
+		
+	}
+}

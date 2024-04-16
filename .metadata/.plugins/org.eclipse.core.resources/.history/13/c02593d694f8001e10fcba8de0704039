@@ -1,0 +1,48 @@
+package chapter02;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+//		Q1 바이트크기가 작은 자료형을 더 큰 자료형으로 자동 형변환 코드 2가지 구현
+		System.out.println("Q1");
+		
+		int iNum = 5000;
+		long lNum = iNum;
+		System.out.println("i Num : " + iNum + " lNum : " + lNum);
+		
+		float fNum = 3.14f;
+		double dNum = fNum;
+		System.out.println("f Num : " + fNum + " dNum : " + dNum);
+		
+		System.out.println("=====================");
+//		Q2 실수를 정수형 변수에 대입하는 경우 형변환이 자동으로 수행되고
+//		소수점 이하 부분이 소실되는 형변환 코드 2가지 구현
+		System.out.println("Q2");
+		
+		float fNum2 = 3.14f;
+		int iNum2 = (int)fNum2;
+		System.out.println("fNum2 : " + fNum2 + " iNum2 : " + iNum2);
+		
+		double dNum2 = 3.14;
+		long lNum2 = (int)dNum2;
+		System.out.println("dNum2 : " + dNum2 + " lNum2 : " + lNum2);
+		
+		System.out.println("=====================");
+//		Q3 변수 2개를 선언해 각각 10과 2.5를 대입하고 	두 변수의 사칙연산 결과를 정수로만 출력하는 코드 2가지
+		System.out.println("Q3");
+		
+		int x =10;
+		float y = 2.5f;
+		int result = (int)(x + y);
+		System.out.println("x + y = " + result);
+		
+		long x2 =10;
+		double y2 = 2.5;
+		int result2 =(int)(x2 + y2);
+		System.out.println("x + y = " + result2);
+		
+		System.out.println("=====================");
+	}
+
+}

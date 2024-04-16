@@ -1,0 +1,16 @@
+package chapter01;
+
+public class LongVariable {
+
+	public static void main(String[] args) {
+		
+		// int num1 = 12345678900;
+		long num2 = 12345678900L;
+		// long으로 선언해도 int type으로 인식해버림
+		// 왜? long을 쓸일이 없어서
+		// L 붙여라
+		
+		System.out.println(num1);
+	}
+
+}

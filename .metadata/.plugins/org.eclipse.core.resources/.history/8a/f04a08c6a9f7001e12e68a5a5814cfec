@@ -1,0 +1,15 @@
+package chapter01;
+
+public class BinaryTest2 {
+
+	public static void main(String[] args) {
+		
+		int num = 10;
+		int bNum = 0B1000; // 이진수
+		
+		System.out.println(num);
+		System.out.println(bNum);
+
+	}
+
+}
