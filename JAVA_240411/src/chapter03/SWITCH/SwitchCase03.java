@@ -17,7 +17,7 @@ public class SwitchCase03 {
 		 // 1, 3, 6, 7, => 31 넣기
 		 // 다른 날은 30
 		 switch (month) {
-		 case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+		 case 1: case 3: case 5: case 7: case 8: case 10: case 12: // 여러 개 같이 하는 거
 			 day = 31;
 			 break;
 		 case 2:

@@ -17,7 +17,7 @@ public class SwitchCase05 {
 
 	private static void scoreDeterminer(int num) {
 		switch (num) {
-		case 1: case 2: case 3: case 4: case 5: case 6:
+		case 1: case 2: case 3: case 4: case 5: case 6: // 한 번에 쓰는 거
 			System.out.println(num+"점 획득!");
 			break;
 		default:
