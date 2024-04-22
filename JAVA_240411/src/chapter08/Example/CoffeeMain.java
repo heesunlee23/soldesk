@@ -1,0 +1,12 @@
+package chapter08.Example;
+
+public class CoffeeMain {
+
+	public static void main(String[] args) {
+		CoffeeGroup cg = new CoffeeGroup();
+		cg.init();
+		cg.showList();
+
+	}
+
+}
