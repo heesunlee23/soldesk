@@ -2,15 +2,32 @@ package chapter08;
 
 public class Car {
 	
-//	String company;
-//	String model;
-//	String color;
-//	int maxSpeed;
-//	int speed;
+	private String color;
+	private int cc;
 	
-	String company = "현대자동차";
-	String model = "제네시스";
-	String color = "컬러";
-	int maxSpeed = 350;
-	int speed = 10;
+	public Car() {} // 기본생성자
+	
+	public Car(String color, int cc) {
+		
+		this.color = color;
+		this.cc = cc;
+	} // 오버로딩 생성자
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+	public int getCc() {
+		return cc;
+	}
+
+	public void setCc(int cc) {
+		this.cc = cc;
+	}
+	
+	
 }

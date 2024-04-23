@@ -1,4 +1,4 @@
-package chapter08; // 0422 - chapter 08
+package chapter07; // 0422 - chapter 07이 가장 중요
 
 public class AccessTest {
 

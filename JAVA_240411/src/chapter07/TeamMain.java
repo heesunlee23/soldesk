@@ -1,4 +1,4 @@
-package chapter08;
+package chapter07;
 
 // 팀 멤버 관리 프로그램
 // 문제점 : 객체가 많아지면 코드가 너무 길어짐 -> 해결: 배열(TeamGroup)

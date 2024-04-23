@@ -1,4 +1,4 @@
-package chapter08.Example;
+package chapter07.Example;
 
 public class CoffeeMain {
 
