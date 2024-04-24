@@ -22,8 +22,6 @@ public class Bus {
 		passengerCount++;
 	}
 	
-	bus.take(1000);
-	
 	// 디폴트 생성자 생략 
 
 }
