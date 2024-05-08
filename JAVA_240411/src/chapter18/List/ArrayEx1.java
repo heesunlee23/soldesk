@@ -12,9 +12,11 @@ public class ArrayEx1 {
 		
 		String[] as = new String[10]; // 배열 => 고정길이 
 		as[0] = "안녕";
-//		for(int i = 0; i < 11; i++) { // 에러남
-//			as[i] = "안녕";
-//		}
+		/*
+		for(int i = 0; i < 11; i++) { // 에러남
+			as[i] = "안녕";
+		}
+		*/
 		
 		List<String> ls = new ArrayList<String>(); // 배열리스트=>가변길이
 		ls.add("Hi");
@@ -31,7 +33,7 @@ public class ArrayEx1 {
 			System.out.println(i + " : " + ls.get(i));
 		}
 		
-		// 데이터 삽입 밀려남 
+		// 데이터 삽입 하면 밀려남 
 		System.out.println("------ 데이터 추가 후 ---------");
 		ls.add(2, "Good");
 		System.out.println(ls.size());

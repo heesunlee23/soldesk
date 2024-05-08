@@ -1,3 +1,4 @@
+// 봤음 
 package chapter18.ArrayList;
 
 import java.util.ArrayList;
@@ -12,6 +13,8 @@ public class ArrayListTest1 {
 		
 		// 가져올 때는 보통 for 문 쓴다. 
 		// 자료구조에서는 for를 주로 '읽기'를 위해 쓴다. 
+		
+		// for문 ==> 읽기전용
 		for(int i = 0; i < list.size(); i++) {
 			System.out.println(list.get(i));
 		} // 일반 for문
@@ -23,15 +26,17 @@ public class ArrayListTest1 {
 		// 삭제 때 for 쓰면 에러날 확률 높음 
 		// 처음 index = 0 일때 삭제는 가능. 단 삭제후 방이 하나로 줄어듦
 		// index는 1이 되었는데 1번째 방이 없어 에러 발생 
-//		for(int i = 0; i < list.size(); i++) {
-//			System.out.println(list.get(i));
-//			list.remove(i);
-//		} // 일반 for문
-//		System.out.println("=====================");
-//		for(Integer i : list) {
-//			System.out.println(i);
-//			list.remove(i);
-//		} // 향상된 for 문
+		/*
+		for(int i = 0; i < list.size(); i++) {
+			System.out.println(list.get(i));
+			list.remove(i);
+		} // 일반 for문
+		System.out.println("=====================");
+		for(Integer i : list) {
+			System.out.println(i);
+			list.remove(i);
+		} // 향상된 for 문
+		*/
 		
 		System.out.println("====================");
 		Iterator<Integer> it = list.iterator();

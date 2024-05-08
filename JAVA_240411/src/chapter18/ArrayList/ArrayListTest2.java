@@ -1,6 +1,7 @@
+// 봤음 
 package chapter18.ArrayList;
 
-import java.util.ArrayList;
+import java.util.ArrayList; // 쓰는 방법 반드시 숙지 
 import java.util.Scanner;
 
 public class ArrayListTest2 {
@@ -16,7 +17,7 @@ public class ArrayListTest2 {
 			System.out.println("패스워드 생성 : ");
 			int pw = Integer.parseInt(sc.nextLine());
 			
-			User user = new User(); // User 하나의 객체
+			User user = new User(); 
 			user.setId(id);
 			user.setPwd(pw);
 			
