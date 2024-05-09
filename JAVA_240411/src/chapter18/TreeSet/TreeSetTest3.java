@@ -1,3 +1,4 @@
+// 봤음
 package chapter18.TreeSet;
 
 import java.util.Comparator;
@@ -19,7 +20,7 @@ public class TreeSetTest3 {
 		 * 원리: 레드블랙트리 (원리는 몰라도 됨) - 정처기, 코테에서 본 적 없고, 7급 공무원 시험지 에서 봤음 
 		 */
 		
-		TreeSet<String> treeSet = new TreeSet<String>(new MyCompare());
+		TreeSet<String> treeSet = new TreeSet<String>(new MyCompare()); // 넣는 건 이렇게 
 		
 		treeSet.add("홍길동");
 		treeSet.add("강감찬");

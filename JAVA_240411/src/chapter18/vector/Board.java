@@ -1,3 +1,4 @@
+// 봤음
 package chapter18.vector;
 
 public class Board {
