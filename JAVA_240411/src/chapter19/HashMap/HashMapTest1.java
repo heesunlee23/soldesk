@@ -1,4 +1,4 @@
-package chapter19.Example;
+package chapter19.HashMap;
 
 import java.util.HashMap;
 import java.util.Iterator;

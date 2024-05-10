@@ -1,4 +1,5 @@
-package chapter19.Example;
+// 봤음 
+package chapter19.HashMap;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -8,8 +9,7 @@ import java.util.Scanner;
 import java.util.Set;
 
 public class HashMapTest3 {
-	
-	// product, Integer (수량) 
+
 	Scanner scan = new Scanner(System.in);
 	private Map<Product, Integer> productMap;
 	Product product;
@@ -21,7 +21,7 @@ public class HashMapTest3 {
 	public void run() {
 		// 서로 이름이 같으면 같은 객체로 인식 되도록
 		// map은 중복된 거 저장되지 않음
-		// 3번 상품이랑 가격은 Product - toString()
+		// 3번 상품이랑 가격은 Product - toString() 으로 되어 있음 
 		while(true) {
 			System.out.println("------------------------------------------------------");
 			System.out.println("1. 상품등록 | 2. 상품삭제 | 3. 상품목록 | 4. 상품검색 | 5. 종료");

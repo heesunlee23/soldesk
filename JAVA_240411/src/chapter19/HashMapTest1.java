@@ -12,17 +12,18 @@ public class HashMapTest1 {
 		
 		// Key, Value (예: id, 이름 - 대응이 되는 것)
 		// Key는 중복 허용 안함 
+		// map - key 중복 허용 안함. 중복 안되는 게 있으면 덮어버림
+		// 같은 키로 저장 시 value가 교체 
 		Map<String, Integer> map = new HashMap<String, Integer>(); 
-		
-		map.put("Java", 85); // entry라고 부름 
+
+		map.put("Java", 85); // ""Java", 85" 같은 걸 entry라고 부름 
 		map.put("Oracle", 85);
 		map.put("JSP", 90);
 		map.put("Spring", 75);
-		// key 부분은 HashSet으로 구성되어 있음. value는 dummy value 임 
+		// key 부분은 HashSet으로 구성되어 있음. value는 dummy value 임 (testing을 위한 것) 
 		
-		map.put("Java", 95); // map - key 중복 허용 안함. 중복 안되는 게 있으면 덮어버림
-		// 같은 키로 저장 시 value가 교체 
-		
+		map.put("Java", 95); 
+
 		System.out.println("총 Entry 수 : " + map.size());
 		System.out.println("Java의 Value : " + map.get("Java"));
 		
@@ -52,8 +53,7 @@ public class HashMapTest1 {
 		while(it.hasNext()) {
 			String key = it.next();
 			Integer value = map.get(key);
-			System.out.println(key);
-			System.out.println(value);
+			System.out.println(key + " \t " + value);
 		}
 		System.out.println("------------------------------");
 		

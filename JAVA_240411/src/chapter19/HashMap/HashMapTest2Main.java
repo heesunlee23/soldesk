@@ -1,5 +1,5 @@
 // 봤음 
-package chapter19.Example;
+package chapter19.HashMap;
 
 public class HashMapTest2Main {
 	

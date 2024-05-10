@@ -1,4 +1,5 @@
-package chapter19.Example;
+// 봤음
+package chapter19.HashMap;
 
 public class HashMapTest3Main {
 	
