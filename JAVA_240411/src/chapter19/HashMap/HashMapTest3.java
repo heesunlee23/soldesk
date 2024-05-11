@@ -134,46 +134,5 @@ public class HashMapTest3 {
 			System.out.println(key + "수량 : " + value); // Product에서 수량 처리 해 놨음 ****** 확인해 봐야 함 
 		}
 	}
-
-	// 내가 한 것 
-//	private void getProductList() {
-//		System.out.println("현재 상품갯수 : " + productMap.size() + " 종류");
-//		
-//		Set<Map.Entry<Product, Integer>> setEntry = productMap.entrySet();	
-//		Iterator<Map.Entry<Product, Integer>> itEntry = setEntry.iterator();
-//
-//		while(itEntry.hasNext()) {
-//			Map.Entry<Product, Integer> entry = itEntry.next();
-//			
-//			entry.getKey().getName();
-//			entry.getValue();
-//			
-//			if(entry.getKey().getName().equals(productNameToRemove)) {
-//				productMap.remove(entry.getKey());
-//				System.out.println("상품 : " + productNameToRemove +"을(를) 삭제했습니다.");
-//				return; 
-//			}
-//		}
-//
-//	}
-
-//	private void removeProduct() {
-//		String productNameToRemove = scan.nextLine();
-//		
-//		Set<Map.Entry<Product, Integer>> setEntry = productMap.entrySet();
-//		Iterator<Map.Entry<Product, Integer>> itEntry = setEntry.iterator();
-//		
-//		while(itEntry.hasNext()) {
-//			Map.Entry<Product, Integer> entry = itEntry.next();
-//			
-//			if(entry.getKey().getName().equals(productNameToRemove)) {
-//				productMap.remove(entry.getKey());
-//				System.out.println("상품 : " + productNameToRemove +"을(를) 삭제했습니다.");
-//				return; 
-//			}
-//		}
-//
-//		System.out.println(productNameToRemove + "가 존재하지 않습니다.");
-//	}
 	
 }
