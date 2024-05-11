@@ -11,8 +11,7 @@ public class HashMapTest1 {
 	public static void main(String[] args) {
 		
 		// Key, Value (예: id, 이름 - 대응이 되는 것)
-		// Key는 중복 허용 안함 
-		// map - key 중복 허용 안함. 중복 안되는 게 있으면 덮어버림 
+		// map - key 중복 허용 안함. 중복 되는 게 있으면 덮어버림 
 		Map<String, Integer> map = new HashMap<String, Integer>(); 
 
 		map.put("Java", 85); // ""Java", 85" 같은 걸 entry라고 부름 
