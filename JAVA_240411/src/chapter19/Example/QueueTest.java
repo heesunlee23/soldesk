@@ -1,3 +1,4 @@
+// 봤음 - 더 볼 필요 없음
 package chapter19.Example;
 
 import java.util.LinkedList;
@@ -15,10 +16,6 @@ public class QueueTest {
 		messageQueue.offer(m1);
 		messageQueue.offer(m2);
 		messageQueue.offer(m3);
-		
-//		for(Message message : messageQueue) {
-//			System.out.println(message);
-//		}
 		
 		while(!messageQueue.isEmpty()) {
 			Message message = messageQueue.poll();
