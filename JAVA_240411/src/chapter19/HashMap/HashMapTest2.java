@@ -1,56 +1,42 @@
 package chapter19.HashMap;
 
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.Map;
+import java.util.Scanner;
 
 public class HashMapTest2 {
-	
-	private HashMap<Integer, String> hashMap;
-	
-	public HashMapTest2() {
-		hashMap = new HashMap<Integer, String>();
-	}
 
-	public void addMember(Member member) {
-		hashMap.put(member.getId(), member.getName());
-	}
-	
-	// 내답 
-//	public void showAllMember() {
-//		// iterator 활용 
-//		Set<Map.Entry<Integer, String>> entrySet = hashMap.entrySet(); // EntrySet: key와 value를 저장 
-//		Iterator<Map.Entry<Integer, String>> entryIt = entrySet.iterator();// iterator에 map 넣기 
-//		while(entryIt.hasNext()) {
-//			Map.Entry<Integer, String> entry = entryIt.next();
-//			Integer key = entry.getKey();
-//			String value = entry.getValue();
-//			System.out.println(key + " \t " + value);
-//		}
-//	}
-
-	public boolean removeMember(int memberId) {
-		// id에 맞는 값 찾아서 지워야 함 (iterator 활용)
-		if(hashMap.containsKey(memberId)) {
-			hashMap.remove(memberId);
-			return true;
-		}
-		System.out.println(memberId+"가 존재하지 않습니다");
-		return false;
-	}
-	
-	// 이게 선생님 답
-	public void showAllMember() {
-		Set<Integer> keySet = hashMap.keySet();
-		Iterator<Integer> it = keySet.iterator();
+	public static void main(String[] args) {
 		
-		while(it.hasNext()) {
-			int key = it.next();
-			String value = hashMap.get(key);
-			System.out.println(value);
+		Map<String, String> map = new HashMap<String, String>();
+		Scanner scan = new Scanner(System.in);
+		
+		map.put("Spring", "123");
+		map.put("Summer", "1234");
+		map.put("Fail", "12345");
+		map.put("Winter", "123456");
+		
+		while(true) {
+			
+			System.out.println("아이디와 비밀번호를 입력하세요");
+			System.out.print("아이디 : ");
+			String id = scan.nextLine();
+			
+			if(map.containsKey(id)) {
+				System.out.print("비밀번호 : ");
+				String pw = scan.nextLine();
+				if(map.get(id).equals(pw)) {
+					System.out.println("로그인 성공");
+					break;
+				}else {
+					System.out.println("비밀번호가 일치하지 않습니다.");
+					continue;
+				}
+			}else {
+				System.out.println("입력하신 아이디는 존재하지 않습니다.");
+			}
 		}
+
 	}
-	
-	
 
 }
