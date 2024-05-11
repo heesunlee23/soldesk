@@ -1,3 +1,4 @@
+// 봤음
 package chapter19.Stack;
 
 import java.util.LinkedList;
